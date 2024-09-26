@@ -22,9 +22,7 @@ const Auth = () => {
           <p>{message}</p>
           <p>
             Don't have an account? 
-            <span 
-              onClick={() => setIsSignedUp(false)} 
-              style={{ cursor: 'pointer', color: 'blue', textDecoration: 'underline' }}>
+            <span onClick={() => setIsSignedUp(false)} style={{ cursor: 'pointer', color: 'blue' }}>
               Go to Sign Up
             </span>
           </p>
@@ -36,9 +34,7 @@ const Auth = () => {
           <p>{message}</p>
           <p>
             Already have an account? 
-            <span 
-              onClick={() => setIsSignedUp(true)} 
-              style={{ cursor: 'pointer', color: 'blue', textDecoration: 'underline' }}>
+            <span onClick={() => setIsSignedUp(true)} style={{ cursor: 'pointer', color: 'blue' }}>
               Go to Login
             </span>
           </p>
